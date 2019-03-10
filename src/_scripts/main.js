@@ -12,3 +12,8 @@ $(() => {
 });
 
 var chart = require('./_charts.js');
+var L = require("leaflet");
+var MiniMap = require('leaflet-minimap');
+var map = require("./_map.js");
+
+L.Icon.Default.imagePath = 'https://unpkg.com/leaflet@1.4.0/dist/images/';
